@@ -1,0 +1,7 @@
+.container-forms {
+  display: flex;
+  justify-content: space-between;
+}
+.container-forms > div {
+  width: 100px;
+}
