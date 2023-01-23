@@ -12,4 +12,12 @@ export class AppComponent {
   onSubmitted(user: UserModel) {
     console.log(user);
   }
+
+  // onIsRemember(checked: boolean) {
+  //   console.log('😎Checked', checked);
+  // }
+  onIsRemember(checked: boolean) {
+    console.log(checked);
+  }
+  onIsRememberToggle(checked: boolean) {}
 }

@@ -9,6 +9,11 @@
       Password
       <input type="password" name="password" ngModel />
     </label>
+    <ng-content select="app-remember"></ng-content>
+    <!-- <div *ngIf="showMessage">Your account will be saved for 14 days</div> -->
+    <app-child-view-component
+      [style.display]="isShowMessage ? 'inherit' : 'none'"
+    ></app-child-view-component>
     <ng-content select="button"></ng-content>
   </form>
 </div>
